@@ -1,0 +1,388 @@
+/**
+ *
+ * ---------------------------------------------------------------------------
+ *
+ * Template Name: Bold - one page creative HTML5 responsive business template
+ * Template URL:  http://lovesome.biz/bold
+ * Author : urosd
+ * Version : 1.0
+ *
+ * --------------------------------------------------------------------------- 
+ *
+ */
+
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 15px 6px;
+    }
+    .member-overly > h3 {
+        font-size: 13px;
+    }
+    .single-member-dec > h3 {
+        font-size: 18px;
+    }
+    .single-progress-dec h3 {
+        font-size: 16px;
+    }
+    .single-blog-overflow h2 a,
+    .single-blog-overflow p,
+    .single-blog-overflow ul li a {
+        font-size: 12px;
+    }
+    .choose-us-content-right {
+        float: right;
+        padding: 80px 40px 80px 50px;
+        width: 50%;
+    }
+
+}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    body {
+        font-size: 13px;
+    }
+    /* Menu area */
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-header {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .navbar-collapse {
+        border: 0;
+    }
+    nav.navbar {
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        width: 100%;
+    }
+    ul.navbar-nav {
+        border: 0 none;
+        text-align: left;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-nav li {
+        display: block !important;
+        float: none;
+        padding: 0 !important;
+    }
+    ul.navbar-nav li a {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 20px !important;
+        display: block;
+        color: #000 !important;
+        font-weight: 600;
+    }
+    .navbar-default .navbar-nav > li > a:focus {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-nav > .active > a:hover {
+        background-color: #038E94 !important;
+        color: #fff !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+        padding: 0;
+    }
+    #bs-example-navbar-collapse-1 {
+        position: relative;
+        z-index: 9;
+        top: 15px;
+    }
+    .navbar-default .navbar-toggle {
+        background-color: #038E94;
+        border-color: #fff;
+        margin: 0;
+        right: 50%;
+        transform: translate(-50%);
+        z-index: 999;
+    }
+    .slider-info h2 {
+        font-size: 18px;
+    }
+    .slider-info h3 {
+        font-size: 30px;
+    }
+    .bold-btn {
+        padding: 10px 20px;
+    }
+    .bold-heading h2,
+    .newsletter-form h2 {
+        font-size: 28px;
+    }
+    .about-content {
+        padding: 0 0 0 60px;
+    }
+    .about-content h3 {
+        font-size: 16px;
+    }
+    .single-service-part h3 {
+        font-size: 18px;
+    }
+    .about-us-content-left {
+        padding: 0 25px;
+    }
+    .single-progress-dec {
+        margin-bottom: 30px;
+    }
+    .price-table {
+        width: 60%;
+        margin: 0 auto 30px;
+    }
+    .choose-us-content-left {
+        width: 40%;
+    }
+    .choose-us-content-right {
+        padding: 80px 20px 80px 20px;
+        width: 60%;
+    }
+    .contact-form {
+        margin-bottom: 30px;
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+    ul.photo-gallery li img {
+        width: 108px;
+        height: auto;
+    }
+    .formnewsletter {
+        width: 100%;
+    }
+
+}
+
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        font-size: 12px;
+    }
+    .header-top {
+        text-align: center !important;
+    }
+    .top-info {
+        text-align: center !important;
+    }
+    .top-bar-text {
+        display: inline-block;
+    }
+    .social {
+        margin-top: 10px !important;
+    }
+    /* Menu area */
+    .navbar-header {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border: 0;
+    }
+    nav.navbar {
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        width: 100%;
+    }
+    ul.navbar-nav {
+        border: 0 none;
+        text-align: left;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-nav li {
+        display: block !important;
+        float: none;
+        padding: 0 !important;
+    }
+    ul.navbar-nav li a {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 20px !important;
+        display: block;
+        color: #000 !important;
+        font-weight: 600;
+    }
+    .navbar-default .navbar-nav > li > a:focus {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-nav > .active > a:hover {
+        background-color: #038E94 !important;
+        color: #fff !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+        padding: 0;
+    }
+    #bs-example-navbar-collapse-1 {
+        position: relative;
+        z-index: 9;
+        top: 0;
+    }
+    .navbar-default .navbar-toggle {
+        background-color: #038E94;
+        border-color: #fff;
+        margin: 0;
+        right: 50%;
+        transform: translate(-50%);
+        z-index: 999;
+    }
+    .slider-info h2 {
+        font-size: 18px;
+    }
+    .slider-info h3,
+    .single-progress-dec > span,
+    .newsletter-form h2 {
+        font-size: 20px;
+    }
+    .owl-nav {
+        display: none;
+    }
+    .bold-btn {
+        padding: 10px 15px;
+    }
+    .bold-heading h2 {
+        font-size: 22px;
+    }
+    .about-us-content {
+        display: block;
+    }
+    .about-us-content-left {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .about-content {
+        padding: 0 0 0 70px;
+    }
+    .about-content h3,
+    .single-progress-dec h3 {
+        font-size: 16px;
+    }
+    .iso-nav li {
+        float: inherit;
+    }
+    .single-progress-dec {
+        margin-bottom: 30px;
+    }
+    .testmonial-dec p {
+        padding: 0;
+        width: 100%;
+    }
+    .progress-circle {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .price-table {
+        margin-bottom: 30px;
+    }
+    .choose-us-content {
+        display: block;
+    }
+    .choose-us-content-left {
+        width: 100%;
+        height: 500px;
+    }
+    .choose-us-content-right {
+        padding: 80px 30px 80px 30px;
+        width: 100%;
+    }
+    .formnewsletter {
+        width: 100%;
+    }
+    .formnewsletter button {
+        width: 36%;
+    }
+    .ui-accordion .ui-accordion-header {
+        text-align: center;
+    }
+    .ui-accordion-header-icon {
+        margin-right: 5px;
+    }
+    .contact-form-area {
+        margin-bottom: 30px;
+    }
+    .contact-info-content h2 {
+        font-size: 20px;
+    }
+    #map {
+        width: 100%;
+    }
+    #street {
+        display: none;
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+    ul.photo-gallery li img {
+        width: 89px;
+        height: auto;
+    }
+    .copy-right {
+        text-align: center;
+    }
+    #scrollUp {
+        bottom: 70px;
+        right: 20px;
+    }
+    .about-us-content-right {
+        height: 500px;
+        width: 100%;
+    }
+    .contact-info-content {
+        padding-left: 0;
+        border-left: 0;
+    }
+    .contact-info-content::before,
+    .contact-form::before{
+        display: none;
+    }
+
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .ui-accordion .ui-accordion-header {
+        text-align: left;
+    }
+    .ui-accordion-header-icon {
+        margin-right: 10px;
+    }
+
+}
